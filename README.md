@@ -15,9 +15,12 @@ Fine-tuning **Gemma4 E2B (2B)** and **Gemma4 E24 (24B)** for Swahili language in
 
 ## Dataset
 
-Translated from [`mlabonne/FineTome-100k`](https://huggingface.co/datasets/mlabonne/FineTome-100k) → **17,982 Swahili instruction-response pairs** via GPT-4o-mini Batch API.
+Translated from [`mlabonne/FineTome-100k`](https://huggingface.co/datasets/mlabonne/FineTome-100k) → **17,982 Swahili instruction-response pairs** via GPT-4o-mini Batch API. Dataset curated and published by **[Lengai AI Lab](https://huggingface.co/lengai-lab)**.
 
-Dataset: [ngusadeep/FineTome-20k-sw](https://huggingface.co/datasets/ngusadeep/FineTome-20k-sw)
+| Format | Dataset |
+| ------ | ------- |
+| Alpaca | [lengai-ai/Swahili-FineTome-Dataset](https://huggingface.co/datasets/lengai-ai/Swahili-FineTome-Dataset) |
+| ShareGPT | [lengai-ai/Swahili-FineTome-Dataset-sharegpt](https://huggingface.co/datasets/lengai-ai/Swahili-FineTome-Dataset-sharegpt) |
 
 ## Training Configuration
 
@@ -58,6 +61,28 @@ model.generate(
 )
 ```
 
+## Citation
+
+If you use these models or the dataset, please cite:
+
+```bibtex
+@misc{gemma4_swahili_2026,
+  author    = {Samwel, Ngusa},
+  title     = {Gemma4 Swahili: Fine-tuning Gemma4 E2B \& E24 for Swahili},
+  year      = {2026},
+  publisher = {Hugging Face},
+  url       = {https://huggingface.co/ngusadeep/gemma-4-2B-Swahili-llm}
+}
+
+@dataset{finetome_20k_sw_2026,
+  author    = {Samwel, Ngusa},
+  title     = {FineTome-20k-sw: A Swahili Instruction Dataset},
+  year      = {2026},
+  publisher = {Hugging Face},
+  url       = {https://huggingface.co/datasets/lengai-ai/Swahili-FineTome-Dataset}
+}
+```
+
 ## License
 
 See [LICENSE](LICENSE) file for details.
@@ -66,4 +91,5 @@ See [LICENSE](LICENSE) file for details.
 
 - Google DeepMind for Gemma4
 - [Unsloth](https://docs.unsloth.ai/) for the fine-tuning framework
-- [mlabonne](https://huggingface.co/mlabonne) for FineTome-100k
+- [lengai-ai/Swahili-FineTome-Dataset](https://huggingface.co/datasets/lengai-ai/Swahili-FineTome-Dataset) — Swahili instruction dataset
+- [Lengai AI Lab](https://huggingface.co/lengai-ai) — Swahili LLM Research
