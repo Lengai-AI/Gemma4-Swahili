@@ -1,6 +1,6 @@
 # Gemma4 Swahili Fine-tuning (E2B & E24)
 
-![cover](assets/md_jop19q_d41bc9ee4117b91c384381940b55c085a1486ae3.jpg)
+![cover](assets/image.jpg)
 
 Fine-tuning **Gemma4 E2B (2B)** and **Gemma4 E24 (24B)** for Swahili language instruction-following using LoRA + Unsloth.
 
