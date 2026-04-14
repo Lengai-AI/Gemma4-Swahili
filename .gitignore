@@ -136,6 +136,13 @@ celerybeat.pid
 
 # Environments
 .env
+
+# Pipeline state (dataprep)
+batch_id.txt
+output_file_id.txt
+batch_input.jsonl
+batch_results.jsonl
+dataprep/checkpoints/
 .envrc
 .venv
 env/
