@@ -1,5 +1,7 @@
 # Gemma4 Swahili Fine-tuning (E2B & E24)
 
+![cover](assets/cover.png)
+
 Fine-tuning **Gemma4 E2B (2B)** and **Gemma4 E24 (24B)** for Swahili language instruction-following using LoRA + Unsloth.
 
 [![Hugging Face E2B](https://img.shields.io/badge/🤗-E2B%20Model-yellow)](https://huggingface.co/ngusadeep/gemma-4-2B-Swahili-llm)
